@@ -1,0 +1,42 @@
+----------
+1. ERROR in /storage/emulated/0/.sketchware/mysc/639/app/src/main/java/com/rickystudios/oneai/MainActivity.java (at line 51)
+	private  DallE dallE;
+	         ^^^^^
+DallE cannot be resolved to a type
+----------
+2. ERROR in /storage/emulated/0/.sketchware/mysc/639/app/src/main/java/com/rickystudios/oneai/MainActivity.java (at line 196)
+	dallE.generateImage(edittext1.getText().toString().trim());
+	^^^^^
+DallE cannot be resolved to a type
+----------
+3. ERROR in /storage/emulated/0/.sketchware/mysc/639/app/src/main/java/com/rickystudios/oneai/MainActivity.java (at line 221)
+	dallE = new DallE(this);
+	^^^^^
+DallE cannot be resolved to a type
+----------
+4. ERROR in /storage/emulated/0/.sketchware/mysc/639/app/src/main/java/com/rickystudios/oneai/MainActivity.java (at line 221)
+	dallE = new DallE(this);
+	            ^^^^^
+DallE cannot be resolved to a type
+----------
+5. ERROR in /storage/emulated/0/.sketchware/mysc/639/app/src/main/java/com/rickystudios/oneai/MainActivity.java (at line 235)
+	dallE.setOnImageGeneratedListener(new DallE.OnImageGeneratedListener() {
+	^^^^^
+DallE cannot be resolved to a type
+----------
+6. ERROR in /storage/emulated/0/.sketchware/mysc/639/app/src/main/java/com/rickystudios/oneai/MainActivity.java (at line 235)
+	dallE.setOnImageGeneratedListener(new DallE.OnImageGeneratedListener() {
+	                                      ^^^^^
+DallE cannot be resolved to a type
+----------
+7. ERROR in /storage/emulated/0/.sketchware/mysc/639/app/src/main/java/com/rickystudios/oneai/MainActivity.java (at line 237)
+	public void onImageGenerated(List<String> imageUrls) {
+	            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The method onImageGenerated(List<String>) of type new OnImageGeneratedListener(){} must override or implement a supertype method
+----------
+8. ERROR in /storage/emulated/0/.sketchware/mysc/639/app/src/main/java/com/rickystudios/oneai/MainActivity.java (at line 249)
+	public void onError() {
+	            ^^^^^^^^^
+The method onError() of type new OnImageGeneratedListener(){} must override or implement a supertype method
+----------
+8 problems (8 errors)
