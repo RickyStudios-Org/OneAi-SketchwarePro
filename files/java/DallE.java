@@ -26,7 +26,7 @@ import android.content.Context;
 public class DallE {
 	
 	private static final MediaType JSON = MediaType.parse("application/json; charset=utf-8");
-	private static final String apiKey = "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";
+	private static final String apiKey = "sua chave api";
 	private static final String baseUrl = "https://api.openai.com/v1/images/generations";
 	
 	private OnImageGeneratedListener onImageGeneratedListener;
